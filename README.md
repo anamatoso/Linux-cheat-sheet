@@ -9,7 +9,7 @@ Welcome to the Linux Commands Cheat Sheet! This repository contains a collection
     - [Text Manipulation](#text-manipulation)
     - [Permissions](#permissions)
     - [Process Management](#process-management)
-    - - [Others](#others)
+    - [Others](#others)
 2. [Contributing](#contributing)
 
 ## Commands
@@ -77,7 +77,7 @@ Command | Description
 `top` | Display and manage running processes.
 `htop` | Display and manage running processes but better. (type h for possible commands)
 
-**Note**: to quit htop/top, type q
+**Note**: to quit htop/top, type q.
 
 ### Others
 Command | Description
