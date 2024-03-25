@@ -84,6 +84,7 @@ Command | Description
 ------- | -----------
 `man command` | Shows the manual for the specified command
 `echo $varname` | Displays a variable's value (eg. $SHELL)
+`set -e` | When put in the beginning of a script, stops the script when it reaches an error.
 
 ## Contributing
 Contributions to improve and expand this cheat sheet are welcome! Please feel free to create issues or to fork this repository, make your changes, and submit a pull request.
