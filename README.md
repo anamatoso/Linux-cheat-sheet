@@ -1,8 +1,6 @@
 # <img src="https://github.com/anamatoso/Linux-cheat-sheet/assets/78906907/518c85e2-4bc2-4c0d-89a4-146db7c81ce5" alt="drawing" width="50"/> Linux-cheat-sheet
 
 
-
-
 Welcome to the Linux Commands Cheat Sheet! This repository contains a collection of basic commands to help you navigate and utilize the command line more effectively. These commands are written in Bash shell (Bourne Again Shell) which is the default shell for most Linux distributions. It was chosen for its robust features, widespread availability, and compatibility with POSIX standards. Bash offers powerful scripting capabilities, extensive built-in commands, and is highly customizable, making it the preferred choice for Linux users and system administrators.
 
 ## Table of Contents
@@ -29,6 +27,8 @@ Command | Description
 
 **Note**: If, when using `cd`, the `directory_name` is left empty or if it is a `~` then it changes to the home directory
 
+---
+
 ### :card_index_dividers: File Management
 Command | Description
 ------- | -----------
@@ -51,6 +51,8 @@ Command | Description
 
 **Note 5**: The flags can be combined. `-f -r` is the same as `-rf`
 
+---
+
 ### :spiral_notepad: Text Manipulation
 Command | Description
 ------- | -----------
@@ -59,6 +61,8 @@ Command | Description
 `grep pattern filename` | Search `filename` for lines containing `pattern`.
 
 **Note**: Inside the `nano` editor, to save you press ctrl+o and then enter. To exit, press ctrl+x and then enter. Other commands are in the bottom of the editor.
+
+---
 
 ### :busts_in_silhouette: Permissions
 Command | Description
@@ -73,6 +77,8 @@ To use the chmod command, you first specify the desired permissions using symbol
 chmod u+wx test.txt
 ```
 
+---
+
 ### :repeat: Process Management
 Command | Description
 ------- | -----------
@@ -81,6 +87,8 @@ Command | Description
 `htop` | Display and manage running processes but better. (type h for possible commands)
 
 **Note**: to quit htop/top, type q.
+
+---
 
 ### :briefcase: Others
 Command | Description
