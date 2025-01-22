@@ -82,11 +82,14 @@ chmod u+wx test.txt
 ### :repeat: Process Management
 Command | Description
 ------- | -----------
+`screen` | Useful to let processes running even when you disconnect from the server.
 `kill PID` | Terminate process with ID `PID`.
 `top` | Display and manage running processes.
 `htop` | Display and manage running processes but better. (type h for possible commands)
 
-**Note**: to quit htop/top, type q.
+**Note 1**: To create a new screen use `screen -S [name]`. To detach from the screen click `ctrl`+`a`+`d`. To resume, type `screen -r [name]`. To list all screens available use `screen -ls`. To delete a screen, connect to it through the resume command and then type `exit`. Sometimes, it might be useful to remotely detach from a screen, using `screen -d [name]`.
+
+**Note 2**: to quit htop/top, type `q`.
 
 ---
 
