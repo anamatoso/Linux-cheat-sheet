@@ -37,6 +37,7 @@ Command | Description
 `cp source_file destination` | Copy `source_file` to `destination`.
 `scp source_file destination` | Same as `cp` but between different machines.
 `mv source destination` | Move or rename `source` to `destination`.
+`ln -sf file_1 file_2` | Create a symbolic link called file_2 that points to file_1.
 `rm filename` | Remove (delete) `filename`.
 `rmdir directory_name` | Remove (delete) empty directory named `directory_name`.
 `du -sh filename` | Display the size of the file called filename (if `filename` is `*` it shows for all files/folders in the directory).
